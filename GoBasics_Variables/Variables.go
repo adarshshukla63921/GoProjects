@@ -3,6 +3,10 @@ package main
 import "fmt"
 
 func main() {
+	// 0. Variable naming conventions
+	// Use camelCase for variables
+	// Start with lowercase for internal use
+	// Start with uppercase if exporting (public)
 	fmt.Println("Variables in Go")
 
 	// 1. Basic Declaration with 'var'
@@ -63,9 +67,4 @@ func main() {
 	fmt.Println("a:", a, "b:", b)
 	a, c := 3, 4 // 'a' is reassigned, 'c' is new
 	fmt.Println("a:", a, "c:", c)
-
-	// 10. Variable naming conventions
-	// Use camelCase for variables
-	// Start with lowercase for internal use
-	// Start with uppercase if exporting (public)
 }
