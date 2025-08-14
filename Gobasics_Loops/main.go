@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	
 	fmt.Println("Loops in Go.")
 
 	// Go has for loop only.
