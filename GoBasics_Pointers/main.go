@@ -1,15 +1,16 @@
 package main
 
 import "fmt"
-func main(){
+
+func main() {
 	fmt.Println("This file will show how to use pointers in go.")
 
 	// declaring pointers in go.
 	var ptrX, ptrY *int
-	var x, y int = 10,20
+	var x, y int = 10, 20
 
-	ptrX=&x
-	ptrY=&y
+	ptrX = &x
+	ptrY = &y
 
 	// printing address.
 	fmt.Println(ptrX)
@@ -20,6 +21,6 @@ func main(){
 	fmt.Println(*ptrY)
 
 	//modifiying values through pointers.
-	*ptrX=20
-	*ptrY=80
+	*ptrX = 20
+	*ptrY = 80
 }
