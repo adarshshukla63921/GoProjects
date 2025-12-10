@@ -31,4 +31,7 @@ func main () {
 
 	xstr := "short hand"
 	fmt.Println(xstr)
+
+	// constants in go lang, they need not be used.
+	const pi = 3.14
 }
