@@ -16,6 +16,7 @@ type Paypal struct {
 	email string
 }
 
+// Both these entities satisfy the PaymentProcessor interface because they implement the ProcessPayment method.
 // connecting 'entity' to the 'thing'
 func (c CreditCard) ProcessPayment(amount float64) string {
 	return "Processed credit card payment of $" + fmt.Sprintf("%.2f", amount)
