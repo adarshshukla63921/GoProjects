@@ -26,6 +26,9 @@ func (p *Post) IncrementView(wg *sync.WaitGroup) {
 		p.mu.Unlock() // unlock -> other goroutines can access now
 		wg.Done()
 	}()
+	// you could also write this below
+	// defer p.mu.Unlock()
+	// defer wg.Done()
 	p.mu.Lock() // lock -> other goroutines wait till unlock
 	p.View += 1
 }
