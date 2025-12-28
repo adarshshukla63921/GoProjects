@@ -1,0 +1,10 @@
+This is line one of the example file.
+Each line contains plain text.
+This file is used for demonstration purposes.
+You can open it with any text editor.
+Line five sits right in the middle.
+Text files are easy to create and modify.
+They are commonly used for notes and logs.
+This example avoids special formatting.
+Almost at the end now.
+This is the tenth and final line.
