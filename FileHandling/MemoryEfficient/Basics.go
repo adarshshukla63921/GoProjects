@@ -109,4 +109,5 @@ func main() {
 	//readLineByLine("example.txt")
 	writeLineByLine("bufferedIo.txt")
 	appendToFile("bufferedIo.txt")
+	deleteFile("remove.txt")
 }
